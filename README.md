@@ -1,6 +1,6 @@
 # Correcting band gaps and band-edge positions of oxide perovskites using DFT and  machine learning
 
-One Paragraph of project description goes here
+we use DFT and machine learning techniques to correct band gaps and band-edge positions of semiconductors, using a representative subset of ABO$_3$ perovskite oxides as example. Relying on results of HSE06 hybrid functional calculations as target values of band gaps, we find a systematic band gap correction of $\sim$1.5 eV for this class of materials, where $\sim$1 eV comes from downward shifting the valence band and $\sim$0.5 eV from uplifting the conduction band. The main chemical and structural factors determining the band gap correction are determined through the feature selection procedure. 
 
 ## Getting Started
 
@@ -8,20 +8,29 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+All the structures and data analysis were carried out using -Pymatgen.
+
+All the deep learning model manipulation were carried out using
+
+-Scikit-Learn Toolbox
 
 ```
 Give examples
 ```
 
-### Installing
+### Data and Models loading
 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
 
+All the data is stored in .json format
+
+  Example to load binary_oxide_entries.json
 ```
-Give the example
+import json
+with open("data/binary_oxide_entries.json", "r") as f:
+  data = json.load(f)
 ```
 
 And repeat
