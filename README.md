@@ -4,7 +4,7 @@ we use DFT and machine learning techniques to correct band gaps and band-edge po
 
 ## How to cite
 
-Correspondence and requests for materials should be addressed to Dr.Anderson Janotti or Dr.Bharat Medasani  (janotti@udel.edu, mbkumar@gmail.com, bmedasan@pppl.gov)
+Correspondence and requests for materials should be addressed to Dr. Anderson Janotti or Dr. Bharat Medasani  (janotti@udel.edu, mbkumar@gmail.com, bmedasan@pppl.gov)
 
 ### Prerequisites
 
@@ -29,27 +29,15 @@ import json
 with open("data/vasprunxml.json", "r") as f:
      data = json.load(f)
 ```
-All the model and scalers are in .pkl format respectively. They can be loaded using keras or pickle, or they can be loaded together using garnetdnn.util.load_model_and_scaler
-
-Example to load model and scaler
+All the data including material atomic features and perovskites properties are in .pkl and .csv format respectively. The data are loaded in model.ipynb for model training and testing purposes. 
 
 ```
-from keras.model import load_model
-import pickle
-model = load_model("model/model_unmix.h5")
-with open("model/scaler_unmix.pkl", "rb") as f:
-     scaler = pickle.load(f)
+data_ele_feature = pd.read_pickle("material_atomic_feature.pkl")
+data = pd.read_csv("model_input.csv")
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+model.ipynb includes prediction model training (linear ridge regressor (LRR), kernel ridge regressor (KRR), and the gradient boosted decision tree (GBDT)), feature importance ranking etc. People may refer to the code and intermediate results model.ipynb for details. 
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-```
-Give an example
-```
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please feel free to contact us for further collaborations. 
