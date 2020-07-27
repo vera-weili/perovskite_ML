@@ -1,6 +1,6 @@
 # Correcting band gaps and band-edge positions of oxide perovskites using DFT and  machine learning
 
-we use DFT and machine learning techniques to correct band gaps and band-edge positions of semiconductors, using a representative subset of ABO3 perovskite oxides as example. Relying on results of HSE06 hybrid functional calculations as target values of band gaps, we find a systematic band gap correction of ~1.5 eV for this class of materials, where ~1 eV comes from downward shifting the valence band and ~0.5 eV from uplifting the conduction band. 
+We use DFT and machine learning techniques to correct band gaps and band-edge positions of semiconductors, using a representative subset of ABO3 perovskite oxides as example. Relying on results of HSE06 hybrid functional calculations as target values of band gaps, we find a systematic band gap correction of ~1.5 eV for this class of materials, where ~1 eV comes from downward shifting the valence band and ~0.5 eV from uplifting the conduction band. 
 
 ## How to cite
 
