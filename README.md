@@ -8,11 +8,11 @@ we use DFT and machine learning techniques to correct band gaps and band-edge po
 
 ### Prerequisites
 
-All the structures and data analysis were carried out using -Pymatgen.
+All the structures and data analysis were carried out using -Pymatgen (https://pymatgen.org/index.html).
 
 All the machine learning model manipulation were carried out using
 
--Scikit-Learn Toolbox
+-Scikit-Learn Toolbox (https://scikit-learn.org/stable/getting_started.html)
 
 ```
 Give examples
