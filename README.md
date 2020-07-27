@@ -26,12 +26,12 @@ All the data is stored in .json format
   Example to load binary_oxide_entries.json
 ```
 import json
-with open("data/vasp_output.json", "r") as f:
+with open("data/vasprunxml.json", "r") as f:
      data = json.load(f)
 ```
-All the model and scalers are in .h5 and .pkl format respectively. They can be loaded using keras or pickle, or they can be loaded together using garnetdnn.util.load_model_and_scaler
+All the model and scalers are in .pkl format respectively. They can be loaded using keras or pickle, or they can be loaded together using garnetdnn.util.load_model_and_scaler
 
-Example to load garnet unmix model and scaler
+Example to load model and scaler
 
 ```
 from keras.model import load_model
