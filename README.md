@@ -10,9 +10,7 @@ Correspondence and requests for materials should be addressed to Dr. Anderson Ja
 
 All the structures and data analysis were carried out using -[Pymatgen](https://pymatgen.org/index.html).
 
-All the machine learning model manipulation were carried out using
-
--[Scikit-Learn Toolbox](https://scikit-learn.org/stable/getting_started.html)
+All the machine learning model manipulation were carried out using -[Scikit-Learn Toolbox](https://scikit-learn.org/stable/getting_started.html)
 
 
 ### Data and Models loading
@@ -36,7 +34,7 @@ data_ele_feature = pd.read_pickle("material_atomic_feature.pkl")
 data = pd.read_csv("model_input.csv")
 ```
 
-model.ipynb includes prediction model training (linear ridge regressor (LRR), kernel ridge regressor (KRR), and the gradient boosted decision tree (GBDT)), feature importance ranking etc. People may refer to the code and intermediate results model.ipynb for details. 
+model.ipynb includes prediction model training (linear ridge regressor (LRR), kernel ridge regressor (KRR), and the gradient boosted decision tree (GBDT)), feature importance ranking etc. People may refer to the code and intermediate results in model.ipynb for details. 
 
 ## Contributing
 
