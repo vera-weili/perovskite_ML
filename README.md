@@ -15,10 +15,6 @@ All the machine learning model manipulation were carried out using -[Scikit-Lear
 
 ### Data and Models loading
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 All the data is stored in .json format
 
   Example to load binary_oxide_entries.json
