@@ -27,7 +27,7 @@ import json
 with open("data/vasprunxml.json", "r") as f:
      data = json.load(f)
 ```
-All the data including material atomic features and perovskites properties are in .pkl and .csv format respectively. The data are loaded in model.ipynb for model training and testing purposes. 
+All the data including material atomic features and structural properties are in .pkl and .csv format respectively. The data are loaded in model.ipynb for model training and testing purposes. 
 
 ```
 data_ele_feature = pd.read_pickle("material_atomic_feature.pkl")
