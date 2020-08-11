@@ -33,7 +33,7 @@ data = pd.read_csv("model_input.csv")
 model.ipynb includes prediction model training (linear ridge regressor (LRR), kernel ridge regressor (KRR), and the gradient boosted decision tree (GBDT)), feature importance ranking etc. People may refer to the code and intermediate results in model.ipynb for details. 
 
 ## Related paper
-Correcting band gaps and band-edge positions of oxide perovskites using DFT and machine learning
+Correcting band gaps and band-edge positions of oxide perovskites using DFT and machine learning.
 
 Wei Li, Zigeng Wang, Xia Xiao, Zhiqiang Zhang, Anderson Janotti, Rajasekaran Sanguthevar & Bharat Medasani
 
@@ -44,7 +44,7 @@ Delaware Energy Institute, University of Delaware
 Princeton Plasma Physics Laboratory, Princeton
 
 ## Contributing
-Please feel free to contact any of the authors for clarifications and possible collaboration
+Please feel free to contact any of the authors for clarifications and possible collaboration.
 
 Wei Li (verali@udel.edu)
 Zigeng Wang (zigeng.wang@uconn.edu)
