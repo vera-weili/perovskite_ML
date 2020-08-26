@@ -4,7 +4,7 @@ We use DFT and machine learning techniques to correct band gaps and band-edge po
 
 ## How to cite
 
-Correspondence and requests for materials should be addressed to Dr. Anderson Janotti or Dr. Bharat Medasani  (janotti@udel.edu, mbkumar@gmail.com, bmedasan@pppl.gov)
+Correspondence and requests for materials should be addressed to Dr. Anderson Janotti (janotti@udel.edu), Dr. Bharat Medasani (mbkumar@gmail.com, bmedasan@pppl.gov), or Dr. Sanguthevar Rajasekaran (sanguthevar.rajasekaran@uconn.edu).
 
 ### Prerequisites
 
@@ -32,6 +32,24 @@ data = pd.read_csv("model_input.csv")
 
 model.ipynb includes prediction model training (linear ridge regressor (LRR), kernel ridge regressor (KRR), and the gradient boosted decision tree (GBDT)), feature importance ranking etc. People may refer to the code and intermediate results in model.ipynb for details. 
 
-## Contributing
+## Related paper
+Correcting band gaps and band-edge positions of oxide perovskites using DFT and machine learning.
 
-Please feel free to contact us for further collaborations. 
+Wei Li, Zigeng Wang, Xia Xiao, Zhiqiang Zhang, Anderson Janotti, Rajasekaran Sanguthevar & Bharat Medasani
+
+Department of Materials Science and Engineering, University of Delaware 
+Computer Science and Engineering Department, University of Connecticut
+Department of Physics and Astronomy, University of Delaware
+Delaware Energy Institute, University of Delaware
+Princeton Plasma Physics Laboratory, Princeton
+
+## Contributing
+Please feel free to contact any of the authors for clarifications and possible collaboration.
+
+Wei Li (verali@udel.edu)
+Zigeng Wang (zigeng.wang@uconn.edu)
+Xia Xiao (xia.xiao@uconn.edu)
+Zhiqiang Zhang (zhangzq@udel.edu)
+Anderson Janotti (janotti@udel.edu)
+Rajasekaran Sanguthevar (sanguthevar.rajasekaran@uconn.edu)
+Bharat Medasani (mbkumar@gmail.com, bmedasan@pppl.gov)
